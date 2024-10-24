@@ -1,0 +1,33 @@
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\appsettings.Development.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\appsettings.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\Assignment 2.exe
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\Assignment 2.deps.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\Assignment 2.runtimeconfig.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\Assignment 2.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\Assignment 2.pdb
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.csproj.AssemblyReference.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.AssemblyInfoInputs.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.AssemblyInfo.cs
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.csproj.CoreCompileInputs.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.MvcApplicationPartsAssemblyInfo.cs
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.MvcApplicationPartsAssemblyInfo.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.sourcelink.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\staticwebassets.build.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\staticwebassets.development.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\staticwebassets\msbuild.Assignment 2.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\staticwebassets\msbuild.build.Assignment 2.props
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Assignment 2.props
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Assignment 2.props
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\scopedcss\bundle\Assignment 2.styles.css
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignme.B8B9BD87.Up2Date
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\refint\Assignment 2.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.pdb
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\Assignment 2.genruntimeconfig.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Assignment 2\Assignment 2\obj\Debug\net8.0\ref\Assignment 2.dll
