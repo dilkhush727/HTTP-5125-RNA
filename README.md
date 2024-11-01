@@ -10,7 +10,8 @@ In this course, I will explore server-side web development using the C# programm
 https://learn.microsoft.com/en-us/dotnet/csharp/
 
 #Images
-![C# Web Development Overview](back-end-development.jpg)
+![back-end-development](https://github.com/user-attachments/assets/1b344bdc-ed94-4f60-8694-7fa40896f494)
+
 
 > **Note**: This repository includes key files and resources to aid your learning in back-end development. A solid understanding of databases and APIs will improve your ability to implement data-driven techniques effectively.
 
