@@ -9,7 +9,7 @@ In this course, I will explore server-side web development using the C# programm
 # links
 https://learn.microsoft.com/en-us/dotnet/csharp/
 
-#Images
+# Image
 ![back-end-development](https://github.com/user-attachments/assets/1b344bdc-ed94-4f60-8694-7fa40896f494)
 
 
