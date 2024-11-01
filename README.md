@@ -4,7 +4,7 @@
 
 ### Academic Year: 2025-2026
 
-In this course, I will explore server-side web development using the C# programming language. I will learn to implement techniques for building data-driven websites that utilize various external data sources.
+In this course, I will explore server-side web development using the C# programming language and learn to implement techniques for building data-driven websites that utilize various external data sources.
 
 # links
 https://learn.microsoft.com/en-us/dotnet/csharp/
@@ -12,7 +12,7 @@ https://learn.microsoft.com/en-us/dotnet/csharp/
 #Images
 ![C# Web Development Overview](back-end-development.jpg)
 
-> **Note**: This repository includes key files and resources to aid your learning in back-end development. Having a solid understanding of databases and APIs will improve your ability to implement data-driven techniques effectively.
+> **Note**: This repository includes key files and resources to aid your learning in back-end development. A solid understanding of databases and APIs will improve your ability to implement data-driven techniques effectively.
 
 
 
