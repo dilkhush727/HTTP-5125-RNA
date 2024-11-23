@@ -1,0 +1,45 @@
+﻿@model Cumulative_1.Models.TeacherCoursesViewModel
+
+
+<h1>Teacher and Courses Details</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Teacher Name</th>
+            <th>Hire Date</th>
+            <th>Employee Number</th>
+            <th>Salary</th>
+            <th>Courses Taught</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Teacher.TeacherFName @Model.Teacher.TeacherLName</td>
+            <td>@Model.Teacher.TeacherHireDate.ToString("yyyy-MM-dd")</td>
+            <td>@Model.Teacher.TeacherEmpNu</td>
+            <td>$@Model.Teacher.TeacherSalary</td>
+            <td>
+                @if (Model.Courses != null && Model.Courses.Any())
+                {
+                    @foreach (var course in Model.Courses)
+                    {
+                        <span>@course</span>
+                        @if (course != Model.Courses.Last())
+                        {
+                            <span>, </span>
+                        }
+                    }
+                }
+                else
+                {
+                    <span>No courses found</span>
+                }
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="mt-30">
+    <a class="btn btn-danger" asp-area="" asp-controller="TeacherPage" asp-action="List">Back</a>
+</div>

@@ -1,0 +1,28 @@
+﻿@model Cumulative_1.Models.Student
+
+<h1>Student Details</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Student Number</th>
+            <th>Enrollment Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.StudentId</td>
+            <td>@Model.StudentFName</td>
+            <td>@Model.StudentLName</td>
+            <td>@Model.StudentNumber</td>
+            <td>@Model.EnrollDate.ToString("yyyy-MM-dd")</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="mt-30">
+    <a class="btn btn-danger" asp-area="" asp-controller="StudentPage" asp-action="List">Back</a>
+</div>

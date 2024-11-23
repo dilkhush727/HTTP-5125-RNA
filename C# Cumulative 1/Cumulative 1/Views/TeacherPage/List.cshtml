@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Cumulative_1.Models.Teacher>
+
+    <h1>Search Teachers by Hire Date</h1>
+
+    <form method="GET" action="/TeacherPage/List" class="filter-form">
+        <div class="d-flex align-items-center gap-10">
+            <div>
+                <label for="StartDate">Start Date:</label>
+                <input type="date" name="StartDate" />
+            </div>
+            <div>
+                <label for="EndDate">End Date:</label>
+                <input type="date" name="EndDate" />
+            </div>
+            <div>
+                <input type="submit" value="Search" />
+            </div>
+        </div>
+    </form>
+
+    <h3><u></>Teachers List</u></h3>
+    <table class="teacher-list">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Cumulative_1.Models.Teacher teacher in Model)
+            {
+                <tr>
+                    <td>@teacher.TeacherFName @teacher.TeacherLName</td>
+                    <td class="text-center"><a href="/TeacherPage/Show/@teacher.TeacherId" class="btn btn-xs btn-warning">View Profile</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>

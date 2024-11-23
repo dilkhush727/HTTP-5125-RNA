@@ -1,0 +1,59 @@
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\appsettings.Development.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\appsettings.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Cumulative 1.staticwebassets.runtime.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Cumulative 1.staticwebassets.endpoints.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Cumulative 1.exe
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Cumulative 1.deps.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Cumulative 1.runtimeconfig.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Cumulative 1.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Cumulative 1.pdb
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.AssemblyInfoInputs.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.AssemblyInfo.cs
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.csproj.CoreCompileInputs.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.MvcApplicationPartsAssemblyInfo.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.RazorAssemblyInfo.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.RazorAssemblyInfo.cs
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.sourcelink.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\scopedcss\bundle\Cumulative 1.styles.css
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\scopedcss\projectbundle\Cumulative 1.bundle.scp.css
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets.build.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets.development.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets\msbuild.Cumulative 1.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets\msbuild.Cumulative 1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets\msbuild.build.Cumulative 1.props
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Cumulative 1.props
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Cumulative 1.props
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\refint\Cumulative 1.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.pdb
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.genruntimeconfig.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\ref\Cumulative 1.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Google.Protobuf.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\MySql.Data.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\ZstdSharp.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.csproj.AssemblyReference.cache
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulati.F0AA05CD.Up2Date
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Humber\First Year\Back-End Web Development 1 - HTTP-5125-RNA\HTTP-5125-RNA\C# Cumulative 1\Cumulative 1\obj\Debug\net8.0\Cumulative 1.MvcApplicationPartsAssemblyInfo.cs
