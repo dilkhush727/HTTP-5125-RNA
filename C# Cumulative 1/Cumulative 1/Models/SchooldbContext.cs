@@ -1,4 +1,4 @@
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 
 namespace Cumulative_1.Models
 {
@@ -14,6 +14,7 @@ namespace Cumulative_1.Models
         {
             get
             {
+
                 return "server = " + Server
                     + "; user = " + User
                     + "; database = " + Database
@@ -22,10 +23,11 @@ namespace Cumulative_1.Models
                     + "; convert zero datetime = True";
             }
         }
-
+        
         public MySqlConnection AccessDatabase()
         {
             return new MySqlConnection(ConnectionString);
         }
     }
 }
+

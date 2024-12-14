@@ -1,0 +1,42 @@
+﻿@model Cumulative_1.Models.Course
+
+@{
+    ViewData["Title"] = "Add New Course";
+}
+
+<div class="form-container">
+    <h2>Add New Course</h2>
+
+    <form method="post" action="/CoursePage/Create">
+        <div class="form-group">
+            <label for="CourseCode">Course Code</label>
+            <input type="text" id="CourseCode" name="CourseCode" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="TeacherId">Teacher ID</label>
+            <input type="number" id="TeacherId" name="TeacherId" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="StartDate">Start Date</label>
+            <input type="date" id="StartDate" name="StartDate" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="FinishDate">Finish Date</label>
+            <input type="date" id="FinishDate" name="FinishDate" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="CourseName">Course Name</label>
+            <input type="text" id="CourseName" name="CourseName" class="form-control" required />
+        </div>
+
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+        <a href="/CoursePage/List" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

@@ -4,6 +4,7 @@ namespace Cumulative_1.Models
 {
     public class Course
     {
+
         public int courseId { get; set; }
 
         public string? coursecode { get; set; }
@@ -14,6 +15,7 @@ namespace Cumulative_1.Models
         public DateTime finishdate { get; set; }
 
         public string? coursename { get; set; }
+
 
     }
 }

@@ -23,6 +23,15 @@
     </tbody>
 </table>
 
-<div class="mt-30">
-    <a class="btn btn-danger" asp-area="" asp-controller="CoursePage" asp-action="List">Back</a>
+<div class="mt-30 d-flex gap-3">
+    <a class="btn btn-secondary" asp-area="" asp-controller="CoursePage" asp-action="List">Back</a>
+
+    <form method="get" action="/CoursePage/DeleteConfirm/@Model.courseId">
+        <button type="submit" class="btn btn-danger">Delete Course</button>
+    </form>
+
+    <form method="get" action="/CoursePage/Edit/@Model.courseId">
+        <button type="submit" class="btn btn-warning">Update Course</button>
+    </form>
+
 </div>

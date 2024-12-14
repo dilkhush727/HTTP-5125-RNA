@@ -126,7 +126,7 @@ tr:nth-child(even) {
     border-collapse: collapse;
     margin-top: 20px;
 }
-.table-list a {
+.table-list .listing a {
     text-decoration: none;
     color: #000;
     background: #f0f0f0;
@@ -136,7 +136,22 @@ tr:nth-child(even) {
     border-radius: 5px;
     box-shadow: 0px 1px 2px -1px #000000c4;
 }
-.table-list a:hover {
-    background: #e6e6e6;
-    box-shadow: 0px 1px 3px -1px #000000db;
+    .table-list .listing a:hover {
+        background: #e6e6e6;
+        box-shadow: 0px 1px 3px -1px #000000db;
+    }
+.form-group{
+    margin-bottom: 15px;
+}
+.btn-xs {
+    padding: 2px 5px;
+    font-size: 14px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.error-message {
+    color: red;
+    display: none;
+    font-size: 12px;
 }

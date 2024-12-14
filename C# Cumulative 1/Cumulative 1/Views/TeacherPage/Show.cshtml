@@ -34,12 +34,22 @@
                 else
                 {
                     <span>No courses found</span>
+                    <br />
+                    <a href="/CoursePage/New" class="btn btn-xs btn-warning">Add a course</a>
                 }
             </td>
         </tr>
     </tbody>
 </table>
 
-<div class="mt-30">
-    <a class="btn btn-danger" asp-area="" asp-controller="TeacherPage" asp-action="List">Back</a>
+<div class="mt-30 d-flex gap-3">
+    <a class="btn btn-secondary" asp-area="" asp-controller="TeacherPage" asp-action="List">Back</a>
+
+    <form method="get" action="/TeacherPage/DeleteConfirm/@Model.Teacher.TeacherId">
+        <button type="submit" class="btn btn-danger">Delete Teacher</button>
+    </form>
+
+    <form method="get" action="/TeacherPage/Edit/@Model.Teacher.TeacherId">
+        <button type="submit" class="btn btn-warning">Update teacher</button>
+    </form>
 </div>

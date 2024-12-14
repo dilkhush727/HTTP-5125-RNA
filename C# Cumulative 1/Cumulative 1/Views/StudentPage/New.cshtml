@@ -1,0 +1,35 @@
+﻿@model Cumulative_1.Models.Student
+
+@{
+    ViewData["Title"] = "Add New Student";
+}
+
+<div class="form-container">
+    <h2 class="text-center">Add New Student</h2>
+
+    <form  method="post" action="/StudentPage/Create">
+        <div class="form-group">
+            <label for="StudentFName">First Name</label>
+            <input type="text" id="StudentFName" name="StudentFName" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="StudentLName">Last Name</label>
+            <input type="text" id="StudentLName" name="StudentLName" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="EnrollmentDate">Enrollment Date</label>
+            <input type="date" id="EnrollmentDate" name="EnrollmentDate" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="Student Number">Student Number</label>
+            <input type="text" id="StudentNumber" name="StudentNumber" class="form-control" />
+        </div>
+
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <a href="/StudentPage/List" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

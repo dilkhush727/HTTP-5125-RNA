@@ -1,0 +1,75 @@
+﻿@model Cumulative_1.Models.Course
+
+<div id="containershow">
+    <h2 class="text-center">Update Course</h2>
+    <form method="POST" action="/CoursePage/Update/@Model.courseId" id="courseForm">
+        <div class="form-group">
+            <label for="CourseCode">Course Code:</label>
+            <input type="text" id="CourseCode" name="CourseCode" value="@Model.coursecode" class="form-control" />
+            <span id="courseCodeError" class="error-message">Course Code cannot be empty.</span>
+        </div>
+        <div class="form-group">
+            <label for="TeacherId">Teacher ID:</label>
+            <input type="text" id="TeacherId" name="TeacherId" value="@Model.teacherid" class="form-control" />
+            <span id="teacherIdError" class="error-message">Teacher ID cannot be empty.</span>
+        </div>
+        <div class="form-group">
+            <label for="StartDate">Start Date:</label>
+            <input type="date" id="StartDate" name="StartDate" value="@Model.startdate.ToString("yyyy-MM-dd")" class="form-control" />
+            <span id="startDateError" class="error-message">Start Date cannot be in the future.</span>
+        </div>
+        <div class="form-group">
+            <label for="FinishDate">Finish Date:</label>
+            <input type="date" id="FinishDate" name="FinishDate" value="@Model.finishdate.ToString("yyyy-MM-dd")" class="form-control" />
+            <span id="finishDateError" class="error-message">Finish Date cannot be before Start Date.</span>
+        </div>
+        <div class="form-group">
+            <label for="CourseName">Course Name:</label>
+            <input type="text" id="CourseName" name="CourseName" value="@Model.coursename" class="form-control" />
+            <span id="courseNameError" class="error-message">Course Name cannot be empty.</span>
+        </div>
+        <div class="form-group text-center">
+            <input type="submit" value="Update Course" class="btn btn-primary" />
+        </div>
+
+        <a class="btn btn-secondary" href="/CoursePage/Show/@Model.courseId">Back</a>
+
+    </form>
+</div>
+
+<script>
+    document.getElementById('courseForm').addEventListener('submit', function (event) {
+        const startDate = document.getElementById('StartDate').value;
+        const finishDate = document.getElementById('FinishDate').value;
+        const courseName = document.getElementById('CourseName').value.trim();
+        const today = new Date().toISOString().split('T')[0];
+
+        let valid = true;
+
+        // Hide error messages initially
+        document.getElementById('startDateError').style.display = 'none';
+        document.getElementById('finishDateError').style.display = 'none';
+        document.getElementById('courseNameError').style.display = 'none';
+
+        // Validation checks
+
+        if (!courseName) {
+            document.getElementById('courseNameError').style.display = 'inline';
+            valid = false;
+        }
+
+        if (startDate > today) {
+            document.getElementById('startDateError').style.display = 'inline';
+            valid = false;
+        }
+
+        if (finishDate < startDate) {
+            document.getElementById('finishDateError').style.display = 'inline';
+            valid = false;
+        }
+
+        if (!valid) {
+            event.preventDefault();
+        }
+    });
+</script>

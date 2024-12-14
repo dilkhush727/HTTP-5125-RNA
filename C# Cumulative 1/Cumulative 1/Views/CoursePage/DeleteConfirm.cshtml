@@ -1,0 +1,20 @@
+﻿@model Cumulative_1.Models.Course
+
+<div class="container">
+    
+    <div class="text-center">
+        <h2>Are you sure you want to delete the course <span class="text-primary">@Model.coursename</span>?</h2>
+        <p class="text-danger">This action cannot be undone.</p>
+    </div>
+
+    <div class="button-container">
+        <form method="POST" action="/CoursePage/Delete/@Model.courseId">
+
+            <div class="d-flex justify-content-center gap-3">
+                <a class="btn btn-secondary" href="/CoursePage/Show/@Model.courseId">Cancel</a>
+                <button type="submit" class="btn btn-danger">Confirm Delete</button>
+            </div>
+            
+        </form>
+    </div>
+</div>

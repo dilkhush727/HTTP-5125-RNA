@@ -12,10 +12,10 @@ namespace Cumulative_1.Models
 
         public DateTime TeacherHireDate { get; set; }
 
-        public string? TeacherSalary { get; set; }
+        public Decimal? TeacherSalary { get; set; }
 
         public string? TeacherEmpNu { get; set; }
 
-        public List<string> CourseNames { get; set; } = new List<string>();
+
     }
 }

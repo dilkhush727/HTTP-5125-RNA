@@ -1,0 +1,19 @@
+﻿@model Cumulative_1.Models.Teacher
+
+<div class="container">
+    <div class="text-center">
+        <h2>Are you sure you want to delete <span class="text-primary">@Model.TeacherFName @Model.TeacherLName</span>?</h2>
+        <p class="text-danger">This action cannot be undone.</p>
+    </div>
+
+    <div class="button-container">
+        <form method="POST" action="/TeacherPage/Delete/@Model.TeacherId">
+
+            <div class="d-flex justify-content-center gap-3">
+                <a class="btn btn-secondary" href="/TeacherPage/Show/@Model.TeacherId">Cancel</a>
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </div>
+
+        </form>
+    </div>
+</div>

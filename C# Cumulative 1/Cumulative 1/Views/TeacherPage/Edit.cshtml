@@ -1,0 +1,78 @@
+﻿@model Cumulative_1.Models.Teacher
+
+<div id="containershow">
+
+    <h2 class="text-center">Update Teacher</h2>
+
+    <form method="POST" action="/TeacherPage/Update/@Model.TeacherId" id="teacherForm">
+        <div class="form-group">
+            <label for="TeacherFname">First Name:</label>
+            <input type="text" id="TeacherFname" name="TeacherFname" value="@Model.TeacherFName" class="form-control" />
+            <span id="fnameError" class="error">First Name cannot be empty.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="TeacherLname">Last Name:</label>
+            <input type="text" id="TeacherLname" name="TeacherLname" value="@Model.TeacherLName" class="form-control" />
+            <span id="lnameError" class="error">Last Name cannot be empty.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="TeacherEmpNu">Employee Number:</label>
+            <input type="text" id="TeacherEmpNu" name="TeacherEmpNu" value="@Model.TeacherEmpNu" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="TeacherHireDate">Hire Date:</label>
+            <input type="date" id="TeacherHireDate" name="TeacherHireDate" value="@Model.TeacherHireDate.ToString("yyyy-MM-dd")" class="form-control" />
+            <span id="hireDateError" class="error">Hire Date cannot be in the future.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="TeacherSalary">Salary:</label>
+            <input type="text" id="TeacherSalary" name="TeacherSalary" value="@Model.TeacherSalary" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Update Teacher" class="btn btn-primary" />
+        </div>
+        
+        <a class="btn btn-secondary" href="/TeacherPage/Show/@Model.TeacherId">Back</a>
+
+    </form>
+</div>
+
+<!-- Script for form validation -->
+<script>
+    document.getElementById('teacherForm').addEventListener('submit', function (event) {
+        const teacherFname = document.getElementById('TeacherFname').value.trim();
+        const teacherLname = document.getElementById('TeacherLname').value.trim();
+        const teacherHireDate = document.getElementById('TeacherHireDate').value;
+        const today = new Date().toISOString().split('T')[0];
+
+        let valid = true;
+
+        document.getElementById('fnameError').style.display = 'none';
+        document.getElementById('lnameError').style.display = 'none';
+        document.getElementById('hireDateError').style.display = 'none';
+
+        if (!teacherFname) {
+            document.getElementById('fnameError').style.display = 'inline';
+            valid = false;
+        }
+
+        if (!teacherLname) {
+            document.getElementById('lnameError').style.display = 'inline';
+            valid = false;
+        }
+
+        if (teacherHireDate > today) {
+            document.getElementById('hireDateError').style.display = 'inline';
+            valid = false;
+        }
+
+        if (!valid) {
+            event.preventDefault();
+        }
+    });
+</script>

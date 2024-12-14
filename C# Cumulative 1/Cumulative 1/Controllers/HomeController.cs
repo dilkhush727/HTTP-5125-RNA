@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using Cumulative_1.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace Cumulative_1.Controllers
 {

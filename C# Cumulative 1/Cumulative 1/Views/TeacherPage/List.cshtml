@@ -18,7 +18,12 @@
         </div>
     </form>
 
-    <h3><u></>Teachers List</u></h3>
+<div class="d-flex justify-content-between">
+        <h3><u>Teachers List</u></h3>
+        <a href="/TeacherPage/New" class="btn btn-warning">Add New Teacher</a>
+    </div>
+
+
     <table class="teacher-list">
         <thead>
             <tr>
@@ -31,7 +36,7 @@
             {
                 <tr>
                     <td>@teacher.TeacherFName @teacher.TeacherLName</td>
-                    <td class="text-center"><a href="/TeacherPage/Show/@teacher.TeacherId" class="btn btn-xs btn-warning">View Profile</a></td>
+                    <td class="text-center"><a href="/TeacherPage/Show/@teacher.TeacherId" class="btn btn-xs btn-info">View Profile</a></td>
                 </tr>
             }
         </tbody>

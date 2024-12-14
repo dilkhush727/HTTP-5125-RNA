@@ -2,8 +2,15 @@
 
 <div class="table-list">
     <h1>Courses List</h1>
-@foreach (Cumulative_1.Models.Course Course in Model)
-{
-    <a href="/CoursePage/Show/@Course.courseId">@Course.coursecode</a>
-}
+
+    <div class="d-flex justify-content-end mb-15">
+        <a href="/CoursePage/New" class="btn btn-warning">Add New Course</a>
+    </div>
+
+    <div class="listing">
+        @foreach (Cumulative_1.Models.Course Course in Model)
+        {
+            <a href="/CoursePage/Show/@Course.courseId">@Course.coursecode</a>
+        }
+    </div>
 </div>

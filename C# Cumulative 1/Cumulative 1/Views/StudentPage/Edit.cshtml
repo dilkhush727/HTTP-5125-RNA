@@ -1,0 +1,66 @@
+﻿@model Cumulative_1.Models.Student
+
+<div id="containershow">
+    <h2 class="text-center">Update Student</h2>
+    <form method="POST" action="/StudentPage/Update/@Model.StudentId" id="studentForm">
+        <div class="form-group">
+            <label for="StudentFname">First Name:</label>
+            <input type="text" id="StudentFname" name="StudentFname" value="@Model.StudentFName" class="form-control" />
+            <span id="fnameError" class="error-message">First Name cannot be empty.</span>
+        </div>
+        <div class="form-group">
+            <label for="StudentLname">Last Name:</label>
+            <input type="text" id="StudentLname" name="StudentLname" value="@Model.StudentLName" class="form-control" />
+            <span id="lnameError" class="error-message">Last Name cannot be empty.</span>
+        </div>
+        <div class="form-group">
+            <label for="EnrollDate">Enrollment Date:</label>
+            <input type="date" id="EnrollDate" name="EnrollDate" value="@Model.EnrollDate.ToString("yyyy-MM-dd")" class="form-control" />
+            <span id="enrollDateError" class="error-message">Enrollment Date cannot be in the future.</span>
+        </div>
+        <div class="form-group">
+            <label for="StudentNumber">Student Number:</label>
+            <input type="text" id="StudentNumber" name="StudentNumber" value="@Model.StudentNumber" class="form-control" />
+        </div>
+        <div class="form-group text-center">
+            <input type="submit" value="Update Student" class="btn btn-primary" />
+        </div>
+        
+        <a class="btn btn-secondary" href="/StudentPage/Show/@Model.StudentId">Back</a>
+
+    </form>
+</div>
+
+<script>
+    document.getElementById('studentForm').addEventListener('submit', function (event) {
+        const studentFname = document.getElementById('StudentFname').value.trim();
+        const studentLname = document.getElementById('StudentLname').value.trim();
+        const enrollDate = document.getElementById('EnrollDate').value;
+        const today = new Date().toISOString().split('T')[0];
+
+        let valid = true;
+
+        document.getElementById('fnameError').style.display = 'none';
+        document.getElementById('lnameError').style.display = 'none';
+        document.getElementById('enrollDateError').style.display = 'none';
+
+        if (!studentFname) {
+            document.getElementById('fnameError').style.display = 'inline';
+            valid = false;
+        }
+
+        if (!studentLname) {
+            document.getElementById('lnameError').style.display = 'inline';
+            valid = false;
+        }
+
+        if (enrollDate > today) {
+            document.getElementById('enrollDateError').style.display = 'inline';
+            valid = false;
+        }
+
+        if (!valid) {
+            event.preventDefault();
+        }
+    });
+</script>
